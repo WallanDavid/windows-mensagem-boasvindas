@@ -1,19 +1,30 @@
-# MeuScript.bat
+# 👋 MeuScript.bat – Mensagem de Boas-Vindas no Windows
 
-Bem-vindo ao MeuScript.bat! Este é um script simples para mostrar uma mensagem de boas-vindas.
+Bem-vindo ao **MeuScript.bat**!  
+Este é um script simples escrito em **Batch** para sistemas Windows, criado para exibir uma mensagem de boas-vindas diretamente no Prompt de Comando.
 
-## Como usar
+## ⚙️ Como Usar
 
-1. Faça o download do arquivo MeuScript.bat.
-2. Execute o script clicando duas vezes no arquivo ou utilizando o prompt de comando.
+1. Faça o download do arquivo `MeuScript.bat`.  
+2. Execute o script:  
+   - Dando dois cliques no arquivo, **ou**  
+   - Através do Prompt de Comando:  
+     MeuScript.bat  
+3. O script exibirá a seguinte mensagem:  
+   Bem-vindo ao meu primeiro script .bat!  
+4. Em seguida, ele aguardará até que você pressione qualquer tecla para encerrar a janela.
 
-O script exibirá a mensagem "Bem-vindo ao meu primeiro script .bat!" e aguardará até que você pressione uma tecla antes de fechar a janela.
+## 🧾 Exemplo de Código
 
-## Contribuição
+@echo off  
+echo Bem-vindo ao meu primeiro script .bat!  
+pause
 
-Sinta-se à vontade para contribuir melhorando este script. Se encontrar problemas ou tiver sugestões, abra uma issue neste repositório.
+## 🤝 Contribuição
 
-## Licença
+Contribuições são super bem-vindas!  
+Se quiser melhorar o script, adicionar recursos ou relatar problemas, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
 
-Este script é distribuído sob a licença [Sua Licença aqui].
+## 📜 Licença
 
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
